@@ -1,0 +1,14 @@
+{
+  "name": "micro-frontend-demo",
+  "repository": "https://github.com/hyunyikim/micro-frontend-demo.git",
+  "author": "hyunyikim11@gmail.com",
+  "license": "MIT",
+  "packageManager": "yarn@3.3.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.4"
+  }
+}
