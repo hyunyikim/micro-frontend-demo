@@ -1,13 +1,12 @@
-import Header from './Header';
+import {Outlet} from 'react-router-dom';
 
-import './App.css';
-const VITE_MFA_PHOTO_URL = import.meta.env.VITE_MFA_PHOTO_URL;
+import Header from './Header';
 
 function App() {
 	return (
 		<main className="App">
 			<Header />
-			{/* TODO: mfa-photo */}
+			<Outlet />
 		</main>
 	);
 }

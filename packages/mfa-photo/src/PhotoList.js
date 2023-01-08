@@ -3,12 +3,15 @@ import {useLoaderData, Link} from 'react-router-dom';
 export default function PhotoList() {
 	const photoList = useLoaderData();
 	return (
-		<div>
+		<main
+			style={{
+				padding: '20px',
+			}}>
 			<h2>PhotoList</h2>
 			{photoList?.map((photo) => (
 				<Photo key={photo.id} data={photo} />
 			))}
-		</div>
+		</main>
 	);
 }
 
